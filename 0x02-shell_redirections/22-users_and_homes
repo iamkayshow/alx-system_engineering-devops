@@ -1,2 +1,2 @@
 #!/bin/bash
-join -t: -1 1 -2 1 -o 1.1,2.2 <(sort -t: -k1,1 /etc/passwd) <(sort -t: -k1,1 /etc/passwd)
+grep -o '^[^:]\+:[^:]\+' /etc/passwd | tr ':' ' ' | sort
