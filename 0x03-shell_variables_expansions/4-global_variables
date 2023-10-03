@@ -1,2 +1,2 @@
 #!/bin/bash
-compgen -e | tee >(wc -l)
+compgen -e=wc -l
