@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -p | grep -E 'declare -[aA]' | cut -d ' ' -f 3
+typeset -F +g +A
