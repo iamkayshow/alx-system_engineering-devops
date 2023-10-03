@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d'\n' - - < /dev/stdin
+grep -n "" | grep -E '^[0-9]*[^02468]$' | cut -d: -f2
