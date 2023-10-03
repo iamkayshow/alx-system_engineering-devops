@@ -1,2 +1,2 @@
 #!/bin/bash
-typeset -F +g +A
+printenv
