@@ -1,2 +1,2 @@
 #!/bin/bash
-compgen -vA function;compgen -e
+declare -F +A
